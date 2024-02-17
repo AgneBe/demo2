@@ -1,0 +1,20 @@
+.third-box {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+  
+  
+    section {
+      padding: 50px;
+      width: 25%;
+  
+      p {
+        color: gray;
+        line-height: 1.8rem;
+      }
+  
+      h2 {
+        padding: 10px;
+      }
+    }
+  }

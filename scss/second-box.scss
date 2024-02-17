@@ -1,0 +1,41 @@
+.second-box {
+    position: relative;
+    
+    img {
+      height: 600px;
+      width: 100%;
+      filter: brightness(80%);
+    }
+    
+    .text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    }
+    form {
+      padding: 20px;
+      
+    #email {
+      width: 23rem;
+      height: 35px;
+      border-radius: 3px;
+      border: none;
+      background: rgb(255, 255, 255);
+      
+    }
+    #button{
+    width: 110px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background: #007bff;
+    color: white;
+    }
+    }
+    }

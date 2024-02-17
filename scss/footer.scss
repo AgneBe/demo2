@@ -1,0 +1,36 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+  
+  
+    img{
+      padding: 10px;
+    }
+  
+  .list {
+    text-align: left;
+    
+  ul {
+    display: flex;
+    list-style-type: none;
+    
+  
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    .list-item::after {
+      content: "·";
+      font-weight: bold;
+      padding: 15px;
+    }
+  }
+  
+  p {
+    color: grey;
+    font-size: small;
+    padding-top: 10px;
+  }
+  }
+  }

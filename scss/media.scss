@@ -1,0 +1,135 @@
+@media (max-width: 768px){
+    body {
+      padding: 0px;
+    }
+    .second-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  
+    .text {
+      top:auto;
+      left: auto;
+    }
+    
+     form{
+      display: flex;
+      flex-direction:column;
+      width: 100%;
+      gap: 5px;
+  
+      #email, #button{
+        width: auto;
+      }
+     }
+    }
+  .third-box {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 60px 0;
+    gap: 20px;
+    
+    section {
+      padding: 30px;
+      width: auto;
+  }
+  }
+  .fourth-box {
+     display: grid;
+     grid-template-columns: 100%;
+     overflow-x: hidden;
+  
+    .phone {
+      order: 1;
+    }
+    .item-1{
+      order: 2;
+    }
+    .screen {
+      order: 3;
+    }
+    .item-2 {
+      order: 4;
+    }
+    .child {
+      order: 5;
+    }
+    .item-3 {
+      order: 6;
+    }
+  
+    img {
+      width: 150%; 
+      height: 100%;   
+  
+    }
+    section {
+      width: 100%;
+      height: 600px;
+      padding: 30px;
+      
+    p, h2{
+    padding: 10px;
+    }
+  }
+  }
+  .fifth-box {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 60px 0;
+    gap: 20px;
+  
+    .comments {
+      flex-direction: column;
+      align-items: center;
+  
+      section {
+        padding: 20px;
+        width: auto;
+      }
+    }
+  }
+  .sixth-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  .footer-signup {
+    bottom: auto;
+    left: auto;
+  
+   form{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    gap: 5px;
+  
+    #email, #button{
+      width: auto;
+  }
+  }
+  }
+  }
+  footer {
+     flex-direction: column;
+     align-items: center;
+     padding: 60px 40px 60px 40px;
+     
+     ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 10px;
+     }
+  p {
+    text-align: center;
+  }
+  .media {
+    padding-top: 30px;
+    img{
+      padding: 15px;
+    }
+  }
+  }
+  }
